@@ -9,6 +9,7 @@
 
 body{
     transition: ease 1s;
+    overflow-x:hidden ;
 }
 
 header{
@@ -40,12 +41,11 @@ i#burger{
     padding-right: 30px;
     color: #e57627;
     cursor: pointer;
-    transition: 1s;
 }
 
 .menu{
     display: none;
-    background-color: #e4e4e4;
+    background-color: rgb(204, 194, 180);
     height: 88vh;
 }
 
@@ -54,11 +54,79 @@ li{
     font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 1px solid lightgrey;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     transition: 0.5s;
 }
 
 li:hover{
-    background-color: #b9b9b9;
+    background-color: rgb(233, 222, 207);
     text-decoration: underline;
+}
+
+/*fim da parte de header e menu*/
+
+main{
+    width: 100vw;
+    background-color: rgb(233, 222, 207);
+}
+
+.headermain{
+    height: 22vh;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headermain > h1{
+    padding: 30px 0px 30px 0px;
+    font-size: 2.5em;
+}
+
+.headermain > p{
+    padding: 0px 0px 10px 0px;
+}
+
+.cntimg1{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1{
+    width: 80vw;
+    height: 25vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cntimg2{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2{
+    width: 80vw;
+    height: 35vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1, p{
+    padding: 20px;
+}
+
+div#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 30vh;
 }
