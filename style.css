@@ -62,7 +62,7 @@ i#burger{
     height: 88vh;
 }
 
-li{
+.menu > li{
     padding: 15px;
     font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif;
@@ -72,7 +72,7 @@ li{
     transition: 0.5s;
 }
 
-li:hover{
+.menu > li:hover{
     background-color: rgb(233, 222, 207);
     text-decoration: underline;
 }
@@ -82,6 +82,7 @@ li:hover{
 main{
     width: 100vw;
     background-color: rgb(233, 222, 207);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
 }
 
 .headermain{
@@ -169,4 +170,31 @@ div#logo{
 .iconsdados{
     margin: 20px;
     color: #2e9871;
+}
+
+/*fim da parte do main*/
+
+footer{
+    background-image: url(img/Untitled-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #005f3cd5;
+    height: 50vh;
+    text-align: center;
+}
+
+div#email{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+div#telefone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
 }
