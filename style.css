@@ -1,10 +1,22 @@
 @charset "UTF-8";
 
+// <uniquifier>: Use a unique and descriptive class name
+
+.archivo-<uniquifier> {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 62.5;
+}
+
 /*configurações gerais*/
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
 }
 
 body{
@@ -16,6 +28,7 @@ header{
     display: flex;
     background-color: antiquewhite;
     height: 12vh;
+    border-bottom: 1px solid rgb(126, 126, 126);
 }
 
 .cntimg{
@@ -80,7 +93,7 @@ main{
 
 .headermain > h1{
     padding: 30px 0px 30px 0px;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 .headermain > p{
@@ -102,7 +115,7 @@ main{
     border-radius: 20px;
     text-align: center;
 }
-
+/*apartir dessa parte comecei a ter problemas com barra de rolagem horizontal mas retirei com o overflow-x hidden no body*/
 .cntimg2{
     height: 40vh;
     width: 100vw;
@@ -129,4 +142,31 @@ div#logo{
     align-items: center;
     margin: 20px;
     height: 30vh;
+}
+
+.dados{
+    display: flex;
+    background-color: rgb(233, 222, 207) ;
+    width:100%;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.cntdados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxdados{
+    background-color: rgb(201, 191, 177);
+    border-radius: 20px;
+    width: 90vw;
+    margin: 30px;
+}
+
+.iconsdados{
+    margin: 20px;
+    color: #2e9871;
 }
