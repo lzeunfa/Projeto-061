@@ -7,8 +7,7 @@
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 62.5;
+  font-variation-settings:"wdth" 62.5;
 }
 
 /*configurações gerais*/
@@ -186,12 +185,11 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #005f3cd5;
-    height: 50vh;
+    height: 30vh;
     text-align: center;
 }
 
 div#email{
-    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
