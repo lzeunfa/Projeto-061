@@ -62,7 +62,7 @@ i#burger{
     height: 88vh;
 }
 
-.menu > li{
+.menu > ul > li{
     padding: 15px;
     font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif;
@@ -72,7 +72,7 @@ i#burger{
     transition: 0.5s;
 }
 
-.menu > li:hover{
+.menu > ul > li:hover{
     background-color: rgb(233, 222, 207);
     text-decoration: underline;
 }
@@ -110,6 +110,9 @@ main{
 }
 
 .img1{
+    background-image: url(img/pexels-israwmx-21782637.jpg);
+    background-position: center center;
+    background-size: contain;
     width: 80vw;
     height: 25vh;
     border: 1px solid black;
@@ -126,6 +129,9 @@ main{
 }
 
 .img2{
+    background-image: url(img/pexels-israwmx-21782637.jpg);
+    background-position: center center;
+    background-size: contain;
     width: 80vw;
     height: 35vh;
     border: 1px solid black;
