@@ -70,6 +70,11 @@ i#burger{
     transition: 0.5s;
 }
 
+.menu > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
 .menu > ul > li:hover{
     background-color: rgb(233, 222, 207);
     text-decoration: underline;
