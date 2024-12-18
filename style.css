@@ -88,6 +88,14 @@ main{
     background-color: rgb(233, 222, 207);
 }
 
+main > h1{
+    padding: 10px 0px 10px 18px;
+}
+
+main > p{
+    text-align: center;
+}
+
 .headermain{
     height: 28vh;
 
@@ -138,10 +146,6 @@ main{
     border: 1px solid black;
     border-radius: 20px;
     text-align: center;
-}
-
-h1, p{
-    
 }
 
 div#logo{
