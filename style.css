@@ -1,14 +1,9 @@
 @charset "UTF-8";
 
 /*font-family*/
-// <uniquifier>: Use a unique and descriptive class name
-
-.archivo-<uniquifier> {
-  font-family: "Archivo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:"wdth" 62.5;
+@font-face {
+    font-family: "Summer";
+    src: url(Summer\ Ceremony.otf);
 }
 
 /*configurações gerais*/
@@ -16,7 +11,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Archivo", sans-serif;
+    font-family: "Summer", sans-serif;
 }
 
 body{
@@ -62,7 +57,7 @@ i#burger{
 
 .menu > ul > li{
     padding: 15px;
-    font-size: 1.3em;
+    font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 1px solid lightgrey;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
@@ -90,10 +85,12 @@ main{
 
 main > h1{
     padding: 10px 0px 10px 18px;
+    font-size: 3em;
 }
 
 main > p{
     text-align: center;
+    font-size: 1.5em;
 }
 
 .headermain{
@@ -104,11 +101,12 @@ main > p{
 }
 
 .headermain > h1{
-    font-size: 3em;
+    font-size: 4em;
     padding: 20px 0px 20px 0px;
 }
 
 .headermain > p{
+    font-size: 2em;
     padding: 10px 0px 10px 0px;
 }
 
@@ -121,8 +119,9 @@ main > p{
 
 .img1{
     background-image: url(img/pexels-israwmx-21782637.jpg);
-    background-position: center center;
-    background-size: contain;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 80vw;
     height: 25vh;
     border: 1px solid black;
@@ -140,7 +139,8 @@ main > p{
 .img2{
     background-image: url(img/pexels-israwmx-21782637.jpg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 80vw;
     height: 35vh;
     border: 1px solid black;
@@ -177,8 +177,7 @@ div#logo{
     display: flex;
     background-color: rgb(201, 191, 177);
     border-radius: 20px;
-    width: 600px;
-    height: 300px;
+    width: 400px;
     margin: 30px;
 }
 
@@ -189,6 +188,14 @@ div#logo{
 
 .conteudod > h1,p{
     padding: 10px;
+}
+
+.conteudod > h1{
+    font-size: 3em;
+}
+
+.conteudod > p{
+    font-size: 1.8em;
 }
 
 /*fim da parte do main*/
@@ -203,18 +210,19 @@ footer{
 }
 
 footer > h1{
+    font-size: 2.5em;
 }
 
 div#email{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 div#telefone{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
