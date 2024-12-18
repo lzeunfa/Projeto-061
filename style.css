@@ -21,7 +21,7 @@
 
 body{
     transition: ease 1s;
-    overflow-x:hidden ;
+    
 }
 
 header{
@@ -79,30 +79,29 @@ i#burger{
 /*fim da parte de header e menu*/
 
 main{
-    width: 100vw;
+    width: auto;
+    height: auto;
     background-color: rgb(233, 222, 207);
-    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
 }
 
 .headermain{
     height: 28vh;
-    width: 100vw;
+
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .headermain > h1{
-    padding: 30px 0px 30px 0px;
     font-size: 3em;
+    padding: 20px 0px 20px 0px;
 }
 
 .headermain > p{
-    padding: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .cntimg1{
     height: 30vh;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,7 +120,6 @@ main{
 /*apartir dessa parte comecei a ter problemas com barra de rolagem horizontal mas retirei com o overflow-x hidden no body*/
 .cntimg2{
     height: 40vh;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,7 +137,7 @@ main{
 }
 
 h1, p{
-    padding: 20px;
+    
 }
 
 div#logo{
@@ -172,12 +170,17 @@ div#logo{
     background-color: rgb(201, 191, 177);
     border-radius: 20px;
     width: 600px;
+    height: 300px;
     margin: 30px;
 }
 
 .iconsdados{
     margin: 20px;
     color: #2e9871;
+}
+
+.conteudod > h1,p{
+    padding: 10px;
 }
 
 /*fim da parte do main*/
@@ -193,20 +196,18 @@ footer{
 }
 
 footer > h1{
-    margin: 0px;
-    padding: 0px;
 }
 
 div#email{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 div#telefone{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
