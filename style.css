@@ -57,7 +57,6 @@ i#burger{
 }
 
 .menu{
-    display: none;
     background-color: rgb(204, 194, 180);
     height: 88vh;
 }
@@ -151,6 +150,8 @@ div#logo{
     height: 30vh;
 }
 
+/*parte dos dados*/
+
 .dados{
     display: flex;
     background-color: rgb(233, 222, 207) ;
@@ -167,9 +168,10 @@ div#logo{
 }
 
 .boxdados{
+    display: flex;
     background-color: rgb(201, 191, 177);
     border-radius: 20px;
-    width: 90vw;
+    width: 600px;
     margin: 30px;
 }
 
@@ -182,24 +184,29 @@ div#logo{
 
 footer{
     background-image: url(img/Untitled-1.png);
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #005f3cd5;
-    height: 30vh;
+    height: 18vh;
     text-align: center;
+}
+
+footer > h1{
+    margin: 0px;
+    padding: 0px;
 }
 
 div#email{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 div#telefone{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }

@@ -1,8 +1,10 @@
 var burger = document.getElementById(`burger`)
 
 var menu = document.querySelector(`div.menu`)
+menu.style.display=`none`
 
 var main = document.querySelector(`main`)
+main.style.display=`block`
 
 function tamanho(){//para o burger ficar visivel em telas pequenas
     if (window.innerWidth <= 679){
@@ -13,7 +15,7 @@ function tamanho(){//para o burger ficar visivel em telas pequenas
 }
 
 function clicar(){
-    if(menu.style.display===`none`){
+    if(menu.style.display===`none` && main.style.display===`block`){
         menu.style.display=`block`
         burger.innerHTML=`close`
         main.style.display=`none`
