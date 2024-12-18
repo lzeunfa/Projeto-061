@@ -21,7 +21,6 @@
 
 body{
     transition: ease 1s;
-    
 }
 
 header{
@@ -191,7 +190,6 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #005f3cd5;
-    height: 18vh;
     text-align: center;
 }
 
