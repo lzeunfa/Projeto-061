@@ -2,8 +2,8 @@
 
 /*font-family*/
 @font-face {
-    font-family: "Summer";
-    src: url(Summer\ Ceremony.otf);
+    font-family: "Banger";
+    src: url(Bangers-Regular.ttf);
 }
 
 /*configurações gerais*/
@@ -11,7 +11,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Summer", sans-serif;
+    font-family: "Banger", sans-serif;
+    font-weight: 100;
 }
 
 body{
