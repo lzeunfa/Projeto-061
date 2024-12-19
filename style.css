@@ -177,6 +177,7 @@ div#logo{
     background-color: rgb(201, 191, 177);
     border-radius: 20px;
     width: 400px;
+    height: 300px;
     margin: 30px;
 }
 
@@ -184,6 +185,7 @@ div#logo{
     margin: 20px;
     color: #2e9871;
 }
+
 
 .conteudod > h1,p{
     padding: 10px;
