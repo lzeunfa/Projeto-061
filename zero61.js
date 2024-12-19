@@ -10,7 +10,7 @@ const footer = document.querySelector(`footer`)
 footer.style.display=`block`
 
 function tamanho(){//para o burger ficar visivel em telas pequenas
-    if (window.innerWidth <= 679){
+    if (window.innerWidth <= 1023){
         burger.style.display = 'block'
     } else {
         burger.style.display = 'none'

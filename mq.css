@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (min-width:920px) and (max-width:1023px) {
+    .cntimg{
+        width: 50%;
+    }
+    
+    .cntimg > img{
+        margin:0px 0px 0px 80px;
+    }
+    
+    .burgerm{
+        width: 50%;
+    }
+    
+    i#burger{
+        padding-right: 80px;
+    }
+
+    .loc{
+        width: 866px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .cntimg{
+        width: 22%;
+    }
+    
+    .cntimg > img{
+        margin:0px 0px 0px 60px;
+    }
+    
+    .burgerm{
+        width: 78%;
+        justify-content: flex-start;
+    }
+    
+    i#burger{
+        display: none;
+    }
+
+    .loc{
+        width: 866px;
+    }
+
+    .menu2{
+        display: block;
+    }
+
+    .calendmenu{
+        padding-left: 80px;
+    }
+}

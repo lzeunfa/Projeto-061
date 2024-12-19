@@ -71,6 +71,17 @@ i#burger{
     color: black;
 }
 
+.menu2{
+    padding: 0px 30px 0px 0px;
+    display: none;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.menu2:hover{
+    text-decoration: underline;
+}
+
 .menu > ul > li:hover{
     background-color: rgb(233, 222, 207);
     text-decoration: underline;
@@ -186,17 +197,16 @@ div#logo{
     color: #2e9871;
 }
 
-
 .conteudod > h1,p{
     padding: 10px;
 }
 
 .conteudod > h1{
-    font-size: 3em;
+    font-size: 2.8em;
 }
 
 .conteudod > p{
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 
 /*fim da parte do main*/
