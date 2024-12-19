@@ -17,7 +17,7 @@ function tamanho(){//para o burger ficar visivel em telas pequenas
     }
 }
 
-function clicar(){
+function clickMenu(){
     if(menu.style.display===`none` && main.style.display===`block`){
         menu.style.display=`block`
         burger.innerHTML=`close`
