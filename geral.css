@@ -69,6 +69,7 @@ i#burger{
 .menu > ul > li > a{
     text-decoration: none;
     color: black;
+    font-size: 0.8em;
 }
 
 .menu2{
@@ -76,6 +77,7 @@ i#burger{
     display: none;
     text-decoration: none;
     color: rgb(70, 70, 70);
+    font-size: 1.2em;
 }
 
 .menu2:hover{
@@ -102,7 +104,7 @@ main > h1{
 
 main > p{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .headermain{
@@ -111,12 +113,12 @@ main > p{
 }
 
 .headermain > h1{
-    font-size: 4em;
+    font-size: 3em;
     padding: 20px 0px 20px 0px;
 }
 
 .headermain > p{
-    font-size: 2em;
+    font-size: 1.2em;
     padding: 10px 0px 10px 0px;
 }
 
@@ -202,7 +204,7 @@ div#logo{
 }
 
 .conteudod > h1{
-    font-size: 2.8em;
+    font-size: 2em;
 }
 
 .conteudod > p{
@@ -221,19 +223,19 @@ footer{
 }
 
 footer > h1{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 div#email{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 div#telefone{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
