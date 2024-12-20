@@ -48,7 +48,7 @@ i#burger{
     font-size: 2.2em;
     padding-right: 30px;
     color: #e57627;
-    cursor: pointer;
+    cursor: url(img/cams2.png), auto;
 }
 
 .menu{
@@ -62,14 +62,20 @@ i#burger{
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 1px solid lightgrey;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+    cursor: url(img/cams2.png), auto;
     transition: 0.5s;
+}
+
+.menu > ul > li:hover{
+    background-color: rgb(233, 222, 207);
+    text-decoration: underline;
 }
 
 .menu > ul > li > a{
     text-decoration: none;
     color: black;
     font-size: 0.6em;
+    cursor: url(img/cams2.png), auto;
 }
 
 .menu2{
@@ -78,14 +84,10 @@ i#burger{
     text-decoration: none;
     color: rgb(70, 70, 70);
     font-size: 1.2em;
+    cursor: url(img/cams2.png), auto;
 }
 
 .menu2:hover{
-    text-decoration: underline;
-}
-
-.menu > ul > li:hover{
-    background-color: rgb(233, 222, 207);
     text-decoration: underline;
 }
 

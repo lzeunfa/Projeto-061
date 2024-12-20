@@ -33,7 +33,7 @@
     
     .burgerm{
         width: 78%;
-        justify-content: flex-start;
+        justify-content: space-around;
     }
     
     i#burger{
@@ -47,8 +47,66 @@
     .menu2{
         display: block;
     }
-
-    .calendmenu{
-        padding-left: 80px;
-    }
 }
+
+@media screen and (min-width:1280px) and (max-width:1440px){
+    .cntimg{
+        width: 22%;
+    }
+    
+    .cntimg > img{
+        margin:0px 0px 0px 60px;
+    }
+    
+    .burgerm{
+        width: 78%;
+        justify-content: space-around;
+    }
+    
+    i#burger{
+        display: none;
+    }
+
+    .loc{
+        width: 866px;
+    }
+
+    .menu2{
+        font-size: 1.5em;
+        display: block;
+    }
+} 
+
+@media screen and (min-width:1440px){
+    .cntimg{
+        width: 22%;
+    }
+    
+    .cntimg > img{
+        margin:0px 0px 0px 60px;
+    }
+    
+    .burgerm{
+        width: 78%;
+        justify-content: space-around;
+    }
+    
+    i#burger{
+        display: none;
+    }
+
+    .menu2{
+        font-size: 1.8em;
+        display: block;
+    }
+
+    main > h1{
+        padding: 10px 0px 10px 18px;
+        font-size: 2.5em;
+    }
+    
+    main > p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+} 
