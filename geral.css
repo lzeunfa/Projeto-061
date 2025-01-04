@@ -217,7 +217,7 @@ div#logo{
 
 footer{
     background-image: url(img/Untitled-1.png);
-    background-position: center top;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #005f3cd5;
@@ -225,19 +225,19 @@ footer{
 }
 
 footer > h1{
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 div#email{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 div#telefone{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }

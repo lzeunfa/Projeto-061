@@ -20,6 +20,22 @@
     .loc{
         width: 866px;
     }
+
+    footer > h1{
+        font-size: 2em;
+    }
+    
+    div#email{
+        font-size: 1.2em;
+    }
+    
+    div#telefone{
+        font-size: 1.2em;
+    }
+
+    footer > div > img{
+        width: 35px;
+    }
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
@@ -46,6 +62,22 @@
 
     .menu2{
         display: block;
+    }
+
+    footer > h1{
+        font-size: 2em;
+    }
+    
+    div#email{
+        font-size: 1.2em;
+    }
+    
+    div#telefone{
+        font-size: 1.2em;
+    }
+
+    footer > div > img{
+        width: 35px;
     }
 }
 
@@ -74,6 +106,22 @@
     .menu2{
         font-size: 1.5em;
         display: block;
+    }
+
+    footer > h1{
+        font-size: 2em;
+    }
+    
+    div#email{
+        font-size: 1.2em;
+    }
+    
+    div#telefone{
+        font-size: 1.2em;
+    }
+
+    footer > div > img{
+        width: 35px;
     }
 } 
 
@@ -108,5 +156,21 @@
     main > p{
         text-align: center;
         font-size: 1.5em;
+    }
+
+    footer > h1{
+        font-size: 2em;
+    }
+    
+    div#email{
+        font-size: 1.2em;
+    }
+    
+    div#telefone{
+        font-size: 1.2em;
+    }
+
+    footer > div > img{
+        width: 35px;
     }
 } 
