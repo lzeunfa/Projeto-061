@@ -28,6 +28,7 @@ header{
     position: fixed;
     width: 100vw;
     top: 0;
+    z-index: 1000;
 }
 
 .cntimg{
@@ -58,6 +59,8 @@ i#burger{
 .menu{
     background-color: rgb(204, 194, 180);
     height: 88vh;
+    position: fixed;
+    width: 100vw;
 }
 
 .menu > ul > li{
