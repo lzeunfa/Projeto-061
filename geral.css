@@ -17,7 +17,7 @@
 
 body{
     transition: ease 1s;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 header{
@@ -136,7 +136,7 @@ main > p{
 }
 
 .img1{
-    background-image: url(img/pexels-israwmx-21782637.jpg);
+    background-image: url(img/imgleve.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ main > p{
 }
 
 .img2{
-    background-image: url(img/pexels-israwmx-21782637.jpg);
+    background-image: url(img/imgleve.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
