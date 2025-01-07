@@ -17,7 +17,7 @@ function tamanho(){//para o burger ficar visivel em telas pequenas
     }
 }
 
-function clickMenu(){
+function clickMenu(){//para alterações do icon e dos elementos visiveis
     if(menu.style.display===`none` && main.style.display===`block`){
         menu.style.display=`block`
         burger.innerHTML=`close`
@@ -31,7 +31,7 @@ function clickMenu(){
     }
 }
 
-function clickDados(){
+function clickDados(){//para os elementos ficarem visiveis ao serem buscados
     if(main.style.display===`none` && footer.style.display===`none`){
         footer.style.display=`block`
         main.style.display=`block`
@@ -39,3 +39,18 @@ function clickDados(){
         burger.innerHTML=`menu`
     }
 }
+
+//rolagem suave para os locais determinados
+document.querySelectorAll(`a[href^="#"]`).forEach(anchor => {
+    anchor.addEventListener(`click`, function(e){
+        e.preventDefault();
+
+        const targetId = this.getAttribute(`href`);
+        const targetElement = document.querySelector(targetId);
+
+        window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: `smooth`
+        });
+    });
+});
