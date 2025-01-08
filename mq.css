@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+@media screen and (min-width:720px) and (max-width:919px) {
+    .calendario{
+        min-width: 300px;
+    }
+
+    .trabalhos{
+        min-width: 300px;
+    }
+
+    .loc{
+        width: 650px;
+    }
+}
+
 @media screen and (min-width:920px) and (max-width:1023px) {
     .cntimg{
         width: 50%;
