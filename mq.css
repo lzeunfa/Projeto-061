@@ -9,6 +9,10 @@
 
 @media screen and (min-width:720px) and (max-width:919px) {
 
+    body{
+     padding-top:60px;
+   }
+
     .calendario{
         min-width: 300px;
     }
