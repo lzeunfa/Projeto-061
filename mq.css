@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (max-width:500px){
+@media screen and (min-width:500px) and (max-width:719px){
    body{
      padding-top:80px;
    }
@@ -10,7 +10,7 @@
 @media screen and (min-width:720px) and (max-width:919px) {
 
     body{
-     padding-top:60px;
+     padding-top:80px;
    }
 
     .calendario{
@@ -27,6 +27,10 @@
 }
 
 @media screen and (min-width:920px) and (max-width:1023px) {
+    body{
+        padding-top: 80px;
+    }
+
     .cntimg{
         width: 50%;
     }
@@ -73,6 +77,11 @@
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
+    body{
+        transition: ease 1s;
+        padding-top: 80px;
+    }
+
     .cntimg{
         width: 22%;
     }
