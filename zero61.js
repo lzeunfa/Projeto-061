@@ -1,6 +1,6 @@
 const burger = document.getElementById(`burger`)
 
-const menu = document.querySelector(`div.menu`)
+const menu = document.querySelector(`div.menuBurger`)
 menu.style.display=`none`
 
 const main = document.querySelector(`main`)

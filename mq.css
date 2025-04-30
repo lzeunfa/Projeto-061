@@ -2,16 +2,16 @@
 
 
 @media screen and (min-width:500px) and (max-width:719px){
-   body{
-     padding-top:70px;
-   }
+    body{
+        padding-top:70px;
+    }
 }
 
 @media screen and (min-width:720px) and (max-width:919px) {
 
     body{
-     padding-top:75px;
-   }
+        padding-top:75px;
+    }
 
     .calendario{
         min-width: 300px;
@@ -115,7 +115,7 @@
         width: 866px;
     }
 
-    .menu2{
+    .menu{
         display: block;
     }
 
@@ -170,7 +170,7 @@
         width: 866px;
     }
 
-    .menu2{
+    .menu{
         font-size: 1.4em;
         display: block;
     }
@@ -204,6 +204,7 @@
     .burgerm{
         width: 78%;
         justify-content: space-around;
+        padding-left: 200px;
     }
     
     i#burger{
@@ -214,20 +215,8 @@
         padding-top: 50px;
     }
 
-    .calendario{
-        width: 400px;
-    }
-
-    .trabalhos{
-        width: 400px;
-    }
-
-    .loc{
-        width: 400px;
-    }
-
-    .menu2{
-        font-size: 1.6em;
+    .menu{
+        font-size: 1.3em;
         display: block;
     }
 

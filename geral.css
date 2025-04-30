@@ -41,6 +41,9 @@ header{
 .cntlogo{/*conteiner com a logo h1 e h1*/
     height: 100%;
     width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #logoh1{
@@ -68,14 +71,14 @@ i#burger{
     color: #e57627;
 }
 
-.menu{
+.menuBurger{
     background-color: var(--corHeaderBur);
     height: 88vh;
     width: 100vw;
 
 }
 
-.menu > ul > li{
+.menuBurger > ul > li{
     padding: 15px;
     font-size: 2em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.849);
@@ -83,26 +86,26 @@ i#burger{
     transition: 0.5s;
 }
 
-.menu > ul > li:hover{
+.menuBurger > ul > li:hover{
     background-color: rgb(233, 222, 207);
     text-decoration: underline;
 }
 
-.menu > ul > li > a{
+.menuBurger > ul > li > a{
     text-decoration: none;
     color: var(--corLetrasGreal);
     font-size: 0.6em;
 }
 
-.menu2{
-    padding: 0px 30px 0px 0px;
+.menu{
+    padding: 0px 0px 0px 0px;
     display: none;
     text-decoration: none;
     color: var(--corLetrasGreal);
     font-size: 1em;
 }
 
-.menu2:hover{
+.menu:hover{
     text-decoration: underline;
 }
 
@@ -212,12 +215,12 @@ div#logo{
 /*fim da parte do main*/
 
 footer{
-    background-image: url(img/Untitled-1.png);
+    background-image: url(img/logofooter2.png);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #005f3cd5;
-    text-align: center;
+    background-color: var(--corHeader);
+    color: var(--corLetrasGreal);
 }
 
 footer > h1{
@@ -227,13 +230,13 @@ footer > h1{
 div#email{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 1em;
 }
 
 div#telefone{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 1em;
 }
