@@ -46,11 +46,13 @@ header{
 #logoh1{
     color: var(--corBtneLH1);
     padding: 10px 0px 0px 20px;
+    font-weight: 200;
 }
 
 #logoh2{
-    padding: 0px 0px 5px 42px;
+    padding: 0px 0px 5px 43px;
     color: var(--corLetrasGreal);
+    font-weight: 200;
 }
 
 .burgerm{
