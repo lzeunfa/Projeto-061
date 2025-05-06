@@ -18,90 +18,133 @@
 *{
     margin: 0px;
     padding: 0px;
+
     box-sizing: border-box;
+
     font-family: 'Montserrat', sans-serif;
 }
 
 body{
     transition: ease 1s;
+
     padding-top: 70px;
 }
 
 /*começo do header*/
 header{
     display: flex;
+
     background-color: var(--corHeader);
-    height: 11vh;
-    position: fixed;
+
     width: 100vw;
+    height: 11vh;
+
+    position: fixed;
     top: 0;
     z-index: 10;
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.747);
 }
 
-.cntlogo{/*conteiner com a logo h1 e h1*/
+.cntlogo{/*conteiner com a logo texto h1 e h2*/
     height: 100%;
     width: 30%;
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
+#conteinerTxtLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+
+    margin-left: 10%;
+}
+
 #logoh1{
     color: var(--corBtneLH1);
-    padding: 10px 0px 0px 20px;
+
     font-weight: 200;
 }
 
 #logoh2{
-    padding: 0px 0px 5px 43px;
     color: var(--corLetrasGreal);
+
     font-weight: 200;
+
+    margin-right: 4px;
 }
 
 .burgerm{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
     width: 70%;
+}
+
+#conteinerMenu{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 70%;
+
+    margin-left: auto;
 }
 
 i#burger{
     font-size: 2.2em;
+
     padding-right: 30px;
+
     color: #e57627;
 }
 
 .menuBurger{
     background-color: var(--corHeaderBur);
+
     height: 88vh;
     width: 100vw;
-
 }
 
 .menuBurger > ul > li{
     padding: 15px;
+
     font-size: 2em;
+
     border-bottom: 1px solid rgba(0, 0, 0, 0.849);
+
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+
     transition: 0.5s;
 }
 
 .menuBurger > ul > li:hover{
     background-color: rgb(233, 222, 207);
+
     text-decoration: underline;
 }
 
 .menuBurger > ul > li > a{
     text-decoration: none;
+
     color: var(--corLetrasGreal);
+
     font-size: 0.6em;
 }
 
 .menu{
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
+
     display: none;
+
     text-decoration: none;
+
     color: var(--corLetrasGreal);
+
     font-size: 1em;
 }
 
@@ -114,36 +157,43 @@ i#burger{
 main{
     width: auto;
     height: auto;
+
     background-color: rgb(233, 222, 207);
 }
 
 main > h1{
     padding: 10px 0px 10px 18px;
+
     font-size: 2.2em;
 }
 
 main > p{
     text-align: center;
+
     font-size: 1.2em;
 }
 
 .headermain{
     text-align: center;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .headermain > h1{
     font-size: 2.2em;
+
     padding: 20px 0px 20px 0px;
 }
 
 .headermain > p{
     font-size: 1.2em;
+
     padding: 10px 0px 10px 0px;
 }
 
 .cntimg2{
     height: 40vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,10 +204,13 @@ main > p{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+
     width: 80vw;
     height: 35vh;
+
     border: 1px solid black;
     border-radius: 20px;
+
     text-align: center;
 }
 
@@ -165,6 +218,7 @@ div#logo{
     display: flex;
     justify-content: center;
     align-items: center;
+
     margin: 20px;
     height: 30vh;
 }
@@ -173,9 +227,12 @@ div#logo{
 
 .dados{
     display: flex;
-    background-color: rgb(233, 222, 207) ;
-    width:100%;
     flex-direction: column;
+
+    background-color: rgb(233, 222, 207) ;
+
+    width:100%;
+
     padding-top: 20px;
 }
 
@@ -188,16 +245,23 @@ div#logo{
 
 .boxdados{
     display: flex;
-    background-color: rgb(201, 191, 177);
+
+    background-color: #FFF1E0;
+
     border-radius: 20px;
+
     width: 300px;
     height: 300px;
+
     margin: 30px;
 }
 
 .iconsdados{
     margin: 20px;
+
     color: #2e9871;
+
+    border-radius: 50%;
 }
 
 .conteudod > h1,p{
@@ -220,6 +284,7 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--corHeader);
+
     color: var(--corLetrasGreal);
 }
 
@@ -231,6 +296,7 @@ div#email{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
     font-size: 1em;
 }
 
@@ -238,5 +304,6 @@ div#telefone{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
     font-size: 1em;
 }
