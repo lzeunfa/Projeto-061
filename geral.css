@@ -58,7 +58,7 @@ header{
 #conteinerTxtLogo{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: end;
 
     margin-left: 10%;
 }
@@ -73,6 +73,7 @@ header{
     color: var(--corLetrasGreal);
 
     font-weight: 200;
+    padding-right: 3px;
 }
 
 .burgerm{
@@ -134,8 +135,6 @@ i#burger{
 }
 
 .menu{
-    padding: 0px;
-
     display: none;
 
     text-decoration: none;
@@ -143,6 +142,12 @@ i#burger{
     color: var(--corLetrasGreal);
 
     font-size: 1em;
+
+
+}
+
+.menu:not(:last-child){
+    padding-right: 10px;
 }
 
 .menu:hover{
@@ -165,7 +170,7 @@ main > h1{
 }
 
 main > p{
-    text-align: center;
+    padding: 10px 0px 10px 18px;
 
     font-size: 1.2em;
 }
@@ -198,20 +203,22 @@ main > p{
 
 .img2{
     background-image: url(img/imgleve.jpg);
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
 
-    width: 80vw;
-    height: 35vh;
+    width: 60vw;
+    height: 40vh;
 
     border: 1px solid black;
     border-radius: 20px;
 
     text-align: center;
+
+    border-top: 50px solid var(--corHeader);
 }
 
-div#logo{
+#logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,31 +293,25 @@ div#logo{
 /*fim da parte do main*/
 
 footer{
-    background-image: url(img/logofooter2.png);
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: contain;
     background-color: var(--corHeader);
 
     color: var(--corLetrasGreal);
+
+    padding: 10px 0px 0px 0px;
+
+    text-align: center;
 }
 
 footer > h1{
     font-size: 1.8em;
 }
 
-div#email{
+#email, #telefone{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
+    justify-content: center;
     font-size: 1em;
 }
 
-div#telefone{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    font-size: 1em;
+#direitos{
+    color: var(--corBtneLH1);
 }
